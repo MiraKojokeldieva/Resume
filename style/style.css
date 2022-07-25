@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(224, 224, 224);
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+#img_resume {
+    width: 200px;
+    border-radius: 7px;
+}
+p {
+    font-size: 20px;
+    color:black
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    color: blue;
+}
+a:hover {
+    color: rgb(112, 93, 93);
+}
+a:active {
+    color:rgb(175, 32, 6)
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+   .info{
+    text-align: center;
+    display: block;
+   }
+}
+.info > p {
+    color: black;
+    margin: 0;
+}
+.info_text {
+    margin-left: 40px ;
+}
+.info_text h1 {
+    margin-bottom: 10px;
+}
+.stack_li {
+    background-color: rgb(173, 206, 206);
+    padding: 20px 20px;
+    border-radius: 7px;
+}
+.stack_li li {
+    margin-bottom: 8px;
+}
+.experience_li {
+    background-color: rgb(187, 191, 216);
+    padding: 20px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.experience_li_a > li {
+    margin-bottom: 8px;
+}
+.contact  h4 {
+    text-align: center;
+    background-color: rgb(173, 206, 206);    padding: 20px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.contact_gruop label {
+    display: block;
+    font-size: 14px;
+}
+.contact_gruop input, 
+.contact_gruop textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .contact_gruop {
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .contact_gruop:first-child{
+    margin-right: 0;
+}
+.btn {
+    background: rgb(133, 137, 155);
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
